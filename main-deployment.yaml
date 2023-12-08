@@ -1,0 +1,42 @@
+###
+### A complete description of a Prefect Deployment for flow 'First flow'
+###
+name: demo1
+description: null
+version: 1382f18c49f8419b1b2a2d5c9f22366c
+# The work queue that will handle this deployment's runs
+work_queue_name: default
+work_pool_name: null
+tags: []
+parameters: {}
+schedule: null
+is_schedule_active: null
+infra_overrides: {}
+infrastructure:
+  type: process
+  env: {}
+  labels: {}
+  name: null
+  command: null
+  stream_output: true
+  working_dir: null
+  block_type_slug: process
+  _block_type_slug: process
+
+###
+### DO NOT EDIT BELOW THIS LINE
+###
+flow_name: First flow
+manifest_path: null
+storage: null
+path: C:\Users\afuentes\OneDrive - Devel Security, S.A\Documentos\Diagramas\workflow
+entrypoint: main.py:main
+parameter_openapi_schema:
+  title: Parameters
+  type: object
+  properties: {}
+  required: null
+  definitions: null
+timestamp: '2023-12-08T19:26:18.149102+00:00'
+triggers: []
+enforce_parameter_schema: null
